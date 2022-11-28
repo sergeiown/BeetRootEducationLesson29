@@ -7,19 +7,20 @@ let itemText = `
 
 document.body.innerHTML = itemText;
 
-function closeTab() {
-  if (confirm("Бажаєте закрити вкладку?")) {
-    window.close();
-  }
-}
+const userName = prompt("Як вас звати?", "John");
+alert("Привіт, " + userName + " !");
 
-let userName = prompt("Як вас звати?", "");
-alert("Привіт " + userName + " !");
+const birthYear = prompt(userName + ", в якому році ви народилися?", 1900);
+alert(
+  "Ваш вік у роках дорівнює " +
+    (new Date().getFullYear() - birthYear) +
+    ", " +
+    userName +
+    "!"
+);
 
-const birthYear = prompt("В якому році ви народилися", 1900);
-let userAge = new Date().getFullYear() - birthYear;
-alert("Ваш вік у роках дорівнює " + userAge + " !");
-
-let userChoice = prompt("Введіть довжину сторони квадрата у сантиметрах", "0");
-let perimetr = userChoice * 4;
-alert("Периметр квадрата дорівнює " + perimetr + " см.!");
+const userChoice = prompt(
+  userName + ", введіть довжину сторони квадрата у сантиметрах",
+  "0"
+);
+alert("Периметр квадрата дорівнює " + Math.round(userChoice * 4) + " см.!");
