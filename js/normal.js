@@ -1,7 +1,7 @@
 let itemText = `
 <h1>Ви пройшли другий етап: взаємодія з користувачем.</h1>
 <br>
-<button type="button" onclick="import('../js/maximum.js')">Продовжити</button>
+<button type="button" onclick="import('./js/maximum.js')">Продовжити</button>
 <button type="button" onclick="closeTab()">Вихід</button>
 `;
 
