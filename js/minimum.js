@@ -46,7 +46,7 @@ document.body.innerHTML = "";
     <li>flatcase</li>
 </ol>
 <br>
-<button type="button" onclick="import('/js/normal.js')">Продовжити</button>
+<button type="button" onclick="import('./js/normal.js')">Продовжити</button>
 <button type="button" onclick="closeTab()">Вихід</button>
 `;
 
