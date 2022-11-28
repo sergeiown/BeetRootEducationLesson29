@@ -6,6 +6,6 @@ function loadScript(src) {
   document.body.append(script);
 }
 
-loadScript("../js/minimum.js");
+loadScript("./js/minimum.js");
 // loadScript("../js/normal.js");
 // loadScript("../js/maximum.js");
