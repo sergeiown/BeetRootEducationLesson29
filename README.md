@@ -2,23 +2,23 @@
 
 **_LMS Beetroot Academy progress_**
 
-## ДОМАШНЄ ЗАВДАННЯ
+### TASKS
 
-**Мінімум**
+**Minimum**
 
-1. Створи HTML-файл, в ньому пропиши всі можливі способи використання JS;
-2. Тобі потрібно зберігати ім’я та прізвище в змінній, придумай до 4-х імен змінних, що потрібні тобі для даної задачі. Також напиши до 5 неправильних імен (неправильні імена повинні бути закоментовані);
-3. Вкажи всі можливі способи коментування коду;
-4. Які стилі написання імен змінних ти знаєш?
+1. Create an HTML file and write all possible ways to use JS in it;
+2. You need to store the first and last name in a variable, come up with up to 4 variable names that you need for this task. Also, write up to 5 incorrect names (incorrect names must be commented);
+3. Indicate all possible ways of commenting the code;
+4. What styles of writing variable names do you know?
 
-**Норма**
+**Normal**
 
-1. Запитай ім’я користувача та виведи у відповідь “Привіт, _ім’я_”;
-2. Запитай рік народження користувача, порахуй його/її вік і виведи результат. Поточний рік вкажи в коді як константу;
-3. Запитай у користувача довжину сторони квадрату і виведи периметр цього квадрата.
+1. Ask for a username and print "Hello, _name_";
+2. Ask for the user's year of birth, calculate his/her age and print the result. Use the current year as a constant in the code;
+3. Ask the user the length of a side of a square and print the perimeter of the square.
 
-**Максимум**
+**Maximum**
 
-1. Запитай у користувача радіус кола і виведи площу такої окружності.
-2. Запитай у користувача відстань в кілометрах між двома містами і за скільки годин він хоче дістатися. Порахуй швидкість, з якою необхідно рухатися, щоб встигнути вчасно.
-3. Реалізуй конвертор валют. Користувач вводить долари, програма переводить їх в євро. Курс валют зберігається в константі.
+1. Ask the user for the radius of a circle and print the area of the circle.
+2. Ask the user for the distance in kilometers between two cities and how many hours it takes to get there. Calculate the speed with which they need to move to be on time.
+3. Implement a currency converter. The user enters dollars, the program converts them into euros. The exchange rate is kept constant.
